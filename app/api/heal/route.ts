@@ -10,7 +10,7 @@ Your absolute and only function is to ingest real-time AWS infrastructure error 
 # RULES & CONSTRAINTS
 1. NO CONVERSATION: Never output greetings, apologies, or conversational filler. 
 2. DETERMINISTIC ACTION: If the ingested log shows latency > 500ms or a 5xx error, you must take immediate mitigation action.
-
+`; // ✨ FIXED: Added the missing closing backtick and semicolon here!
 
 export async function POST(request: Request) {
   try {
